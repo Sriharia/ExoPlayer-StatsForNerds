@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_stats_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:visibility="gone">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0000000"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/player_stats_speed_chart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/player_stats_health_chart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/player_stats_nw_chart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <TextView
+            android:id="@+id/player_stats_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Screen Dimensions: "
+            android:textColor="#ffffff"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/player_stats_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video Resolution: "
+            android:textColor="#ffffff"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/player_stats_dropframes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dropped Frames: "
+            android:textColor="#ffffff"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</ScrollView>
