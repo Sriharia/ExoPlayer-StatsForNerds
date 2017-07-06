@@ -23,7 +23,8 @@ These stats include:
 This is achieved by injecting a listener to a [Customised][] version of [LoadControl][] component of ExoPlayer
 
 [MPAndroidChart]: https://github.com/PhilJay/MPAndroidChart
-[Customised]: https://github.com/google/ExoPlayer/blob/d979469659861f7fe1d39d153b90bdff1ab479cc/library/core/src/main/java/com/google/android/exoplayer2/DefaultLoadControl.java
+[Customised]: 
+https://github.com/Sriharia/ExoPlayer-StatsForNerds/blob/master/demo/src/main/java/com/google/android/exoplayer2/demo/CustomLoadControl.java
 [LoadControl]: https://github.com/google/ExoPlayer/blob/d979469659861f7fe1d39d153b90bdff1ab479cc/library/core/src/main/java/com/google/android/exoplayer2/DefaultLoadControl.java
 
 ## Improved Buffering ##
@@ -32,4 +33,4 @@ This is achieved by changing certain parameters in custom LoadControl component 
 
 Check [CustomLoadControl][] class for more info on how buffer improvements are handled.
  
- [CustomLoadControl]: https://github.com/google/ExoPlayer/blob/d979469659861f7fe1d39d153b90bdff1ab479cc/library/core/src/main/java/com/google/android/exoplayer2/DefaultLoadControl.java
+ [CustomLoadControl]: https://github.com/Sriharia/ExoPlayer-StatsForNerds/blob/master/demo/src/main/java/com/google/android/exoplayer2/demo/CustomLoadControl.java
